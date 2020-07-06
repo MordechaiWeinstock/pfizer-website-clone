@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: red;
+    height: 50vh;
+    background-image: url(https://www.pfizer.co.uk/sites/g/files/g10062751/f/202004/COVID-19-homepage-banner.jpg);
+    background-position: center;
+}
+
+.main-container {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0.7em 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+.main-container .card {
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.card-body-container {
+    padding: 10px 20px;
+}
+
+.main .card {
+    width: 300px;
+}
+
+.main .wide, .sidebar .card {
+    width: 620px;
+}
+
+.card-category {
+    background-color: #0093D0;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    padding: 0 12px;
+    height: 20px;
+    line-height: 20px;
+    font-size: small;
+}
+
+.main h3, a {
+    color: #0093D0;
+    text-transform: uppercase;
+}
+
+.main h3 {
+    padding: 0 0 5px;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.main p {
+    color: #5b5b5b;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.main a {
+    height: 29px;
+    padding: 10 0 0;
+    /* font-size: 15px; */
+}
